@@ -1,5 +1,5 @@
 FROM node:alpine 
-ADD . /app  
+ADD . /app   
 WORKDIR /app
 COPY ./package.json . 
 RUN npm install   
